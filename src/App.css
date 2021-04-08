@@ -1,0 +1,45 @@
+
+.App-header {
+  background-color: #f28ab2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Comfortaa', cursive;
+}
+
+.panel{
+  background-color: white;
+  font-size: calc(10px + 2vmin);
+
+
+}
+.num{
+  color: black;
+  margin-bottom: 6px;
+  padding-left: 20px;
+
+}
+
+.button-pan{
+  text-align: center;
+  height: 56px;
+}
+.button-pan button{
+    color: #fff;
+    display: block;
+    width: 80%;
+    border-color: transparent;
+    background: #f28ab2;
+    margin: 2rem auto 0;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    padding: .5rem 0;
+    letter-spacing: .1rem;
+    border-radius: .25rem;
+    outline: 1px solid rgba(242,138,178,.8);
+    cursor: pointer;
+}
